@@ -33,7 +33,7 @@
 
 Name:           plexus-interactivity
 Version:        1.0
-Release:        0.13.alpha6%{?dist}
+Release:        0.14.alpha6%{?dist}
 Epoch:          0
 Summary:        Plexus Interactivity Handler Component
 License:        MIT
@@ -84,6 +84,9 @@ API documentation for %{name}.
 %files javadoc -f .mfiles-javadoc
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.0-0.14.alpha6
+- Mass rebuild 2013-12-27
+
 * Fri Aug 16 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 0:1.0-0.13.alpha6
 - Migrate away from mvn-rpmbuild (#997434)
 
